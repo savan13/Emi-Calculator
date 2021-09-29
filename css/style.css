@@ -1,0 +1,98 @@
+	table#emi{
+        border:1px solid #d4d4d4;
+        margin:0 auto;
+        font-family:'Cantora One', sans-serif;
+        font-size:14px;
+    }
+    table#emi td{
+        padding:5px;
+    }
+    table#emi tr:nth-child(even){
+        background:#E4E4E4;
+        border:1px solid #D4D4D4;
+        border-left:0;
+        border-right:0;
+    }
+    table#emi tr td:nth-last-child(1){
+        background:#D7E4FF;
+    }
+    table#emi input{
+        margin-bottom:5px !important;
+        margin-top:5px;
+    }
+    #result td{
+        padding:5px;
+    }
+    table#result{
+        width:519px;
+        border:1px solid #d4d4d4;
+        margin:0 auto;
+        margin-top:10px;
+        display:none;
+        font-family:'Cantora One', sans-serif;
+        font-size:14px;
+    }
+    table#result tr:nth-child(even){
+        background:#E4E4E4;
+        border:1px solid #D4D4D4;
+    }
+    table#result tr td:nth-last-child(1){
+        width:213px;
+    }
+
+.eni_list{
+        border:1px solid #D4D4D4;
+    }
+    .eni_list tr:nth-child(2){
+        font-family:'Cantora One', sans-serif;
+        font-size:14px;
+    }
+    .eni_list td{
+        padding:5px;
+        border:1px solid #D5D5D5;
+        text-align:center;
+    }
+    .eni_list tr:nth-child(even){
+        background:#E4E4E4;
+    }
+    span.err{
+        color:#F00;
+        font-weight:bold;
+    }
+	input[type="text"],
+	input[type="number"]	{
+    width: 50%;
+    padding: 10px 14px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+td.loan-title {
+    text-align: center;
+    font-size: 24px;
+}
+td.loan-btn {
+    text-align: center;
+}
+td.loan-btn input.btn.btn-primary {
+    text-align: center;
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+p.line-p {
+    font-size: 16px;
+    font-weight: 600;
+}
+b.line-head {
+    font-size: 20px;
+    text-transform: uppercase;
+}
